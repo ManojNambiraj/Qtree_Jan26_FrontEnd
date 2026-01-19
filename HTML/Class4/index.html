@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h2>User Register</h2>
+
+      <div>
+        <label for="username">Name</label>
+        <input type="text" id="username" placeholder="Enter your name" />
+      </div>
+
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+      </div>
+      
+      <section>
+        <label for="mobile">Mobile</label>
+        <input type="tel" id="mobile">
+      </section>
+
+      <section>
+        <label for="password">password</label>
+        <input type="password" id="password">
+      </section>
+
+      <section>
+        <label for="gender">Gender</label><br>
+
+        <input type="radio" id="male" name="gender"><label for="male">male</label>
+        <input type="radio" id="female" name="gender"><label for="female">female</label>
+        <input type="radio" id="others" name="gender"><label for="others">others</label>
+      </section>
+
+      <section>
+        <label for="favColor">favColor</label><br>
+
+        <input type="checkbox" id="blue" name="favColor"><label for="blue">blue</label><br>
+        <input type="checkbox" id="Yellow" name="favColor"><label for="Yellow">Yellow</label><br>
+        <input type="checkbox" id="Green" name="favColor"><label for="Green">Green</label><br>
+        <input type="checkbox" id="Red" name="favColor"><label for="Red">Red</label><br>
+        <input type="checkbox" id="Pink" name="favColor"><label for="Pink">Pink</label><br>
+      </section>
+
+      <section>
+        <label for="DOB">DOB</label>
+
+        <input type="date" name="DOB" id="DOB">
+      </section>
+
+       <section>
+        <label for="Time_of_Birth">Time_of_Birth</label>
+
+        <input type="time" name="Time_of_Birth" id="Time_of_Birth">
+      </section>
+
+      <section>
+        <select name="" id="">
+            <option value="" selected disabled>--Select--</option>
+            <option value="BMW">BMW</option>
+            <option value="Volvo">Volvo</option>
+            <option value="Audi">Audi</option>
+            <option value="Ferrari">Ferrari</option>
+        </select>
+      </section>
+
+      <section>
+        <label for="Ratings">Ratings</label>
+
+        <input type="range">
+      </section>
+
+      <section>
+        <textarea name="" id="" rows="5" cols="50"></textarea>
+      </section>
+
+      <button>Cancel</button>
+      <input type="button" value="Reset">
+      <input type="submit">
+    </form>
+  </body>
+</html>
