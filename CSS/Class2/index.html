@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent {
+        width: 200px;
+        height: 200px;
+        border: 5px solid black;
+      }
+
+      .parent > img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+        object-position: 50%;
+      }
+
+      body{
+        background-color: #2037aa;
+        /* background-image: url(teddy.jpg); */
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        background-position: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <img src="trees.webp" alt="" />
+    </div>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
+      tempora, nulla enim expedita cumque provident eos possimus vitae quis
+      inventore corrupti consequuntur quidem vero illo animi rerum quam dolorum.
+      Fugit.
+    </p>
+  </body>
+</html>

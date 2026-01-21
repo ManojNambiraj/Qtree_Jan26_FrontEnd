@@ -1,0 +1,13 @@
+.parent {
+        width: 200px;
+        height: 200px;
+        border: 5px solid black;
+      }
+
+      .parent > img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+        object-position: 50%;
+      }
