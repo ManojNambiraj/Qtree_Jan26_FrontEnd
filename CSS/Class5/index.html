@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            width: 80%;
+            height: 650px;
+            border: 2px solid black;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            /* flex-wrap: wrap; */
+            /* gap: 20px; */
+            /* column-gap: 40px;
+            row-gap: 10px; */
+        }
+
+        .child{
+            width: 70px;
+            height: 70px;
+            border: .5px solid black;
+            font-size: 1.5em;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .child1{
+            background-color: rgb(238, 68, 68);
+            /* align-self: flex-start; */
+            order: 4;
+        }
+        
+        .child2{
+            background-color: rgb(79, 76, 233);
+            order: 3;
+        }
+
+        .child3{
+            background-color: pink;
+            /* align-self: flex-end; */
+            order: 1;
+        }
+
+        .child4{
+            background-color: lightgreen;
+            order: 5;
+        }
+
+        .child5{
+            background-color: crimson;
+            order: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child child1">1</div>
+        <div class="child child2">2</div>
+        <div class="child child3">3</div>
+        <div class="child child4">4</div>
+        <div class="child child5">5</div>
+        
+    </div>
+</body>
+</html>
+
+<!-- CSS - Flexbox -->
