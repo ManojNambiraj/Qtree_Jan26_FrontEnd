@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* .parent {
+        position: relative;
+      }
+
+      .tree {
+        width: 600px;
+        position: absolute;
+        top: 100px;
+        z-index: -1;
+        opacity: .5;
+      }
+
+      .para {
+        font-size: larger;
+        font-weight: bold;
+
+      } */
+       /* .box{
+        width: 300px;
+        height: 300px;
+        background-color: red;
+
+         opacity: 1; 
+         visibility: hidden; 
+         display: none; 
+        overflow: scroll;
+        display: inline;
+       }
+
+       .tree{
+        width: 300px;
+       }
+
+       .para1, .para2{
+        font-weight: bold;
+        display: inline;
+       } */
+
+       .drowdown{
+        background-color: blue;
+        width: 50px;
+        padding: 10px 30px;
+        color: white;
+        border: 3px solid white;
+        border-radius: 20px;
+        text-align: center;
+
+        position: relative;
+       }
+
+       .dropdown_content{
+        display: none;
+        position: absolute;
+        background-color: aqua;
+        box-shadow: 0px 8px 16px 0px grey;
+        padding: 12px;
+       }
+
+       .drowdown:hover .dropdown_content{
+            display: block;
+            background-color: rgb(114, 114, 225);
+       }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <!-- <p class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quia
+        repellat amet. Animi quo placeat non, eius sapiente aliquid. Vitae dicta
+        voluptatibus saepe id ad mollitia laudantium, reprehenderit tenetur
+        fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+        dolor tenetur, explicabo commodi nobis, nihil iure atque rem adipisci
+        temporibus harum aliquid. Quisquam ducimus deserunt id quia placeat, hic
+        consequatur! Aperiam, voluptatem sunt deserunt eaque omnis placeat
+        aliquam dolores eius minus dolor quam veritatis quas autem, alias sequi
+        explicabo impedit praesentium eveniet qui odio voluptatibus sapiente
+        expedita excepturi? Cum, aperiam? Accusamus, recusandae culpa optio
+        quia, quae laboriosam dicta consectetur vel iusto architecto, assumenda
+        incidunt excepturi aut. Voluptates aspernatur, voluptatem nihil quaerat
+        eaque neque officia ea, facilis, corrupti ullam blanditiis alias! Rerum,
+        iusto. Magnam corrupti officiis sit nobis excepturi cum corporis
+        dignissimos illo possimus sequi pariatur odio sed molestiae eligendi at,
+        minus ratione accusamus ipsum quasi animi aliquam fugiat! Sequi, odit!
+        Temporibus corporis officiis aperiam maxime cupiditate dolore soluta est
+        laborum expedita ex fuga illum illo, porro labore maiores perspiciatis
+        nisi provident recusandae, necessitatibus harum aliquid non? Inventore
+        ipsum repudiandae aspernatur! Alias, impedit tempore odio iure assumenda
+        enim dolorem veritatis excepturi quam. Ipsa quas, ab, quaerat doloribus
+        eaque eum nobis deleniti sed, ea odit sunt reprehenderit aliquam
+        similique est. Blanditiis, nam. Minima, ut corporis fugiat magnam
+        voluptas velit possimus quos in fuga voluptatem consequatur autem
+        eveniet vitae reprehenderit inventore architecto earum deleniti? Dolore
+        unde blanditiis omnis impedit assumenda corrupti quod. Possimus! Facere
+        aspernatur animi unde sint. Unde et doloremque alias! Vitae, tenetur
+        iusto facilis consequuntur, odit laboriosam dolorum, eos omnis ipsam
+        excepturi voluptatem? Ab velit id hic facere recusandae illum cum. Velit
+        ipsa ex sequi, corrupti repellat unde quam pariatur facere minus ea.
+        Dolor nobis sit repellat quia consequuntur officiis laudantium ullam,
+        deleniti eum fuga ea vitae. Cupiditate nobis ut quidem. Maiores, ut,
+        commodi et perferendis aliquid, voluptates praesentium deserunt maxime
+        architecto corporis possimus dolor quas porro! Vel reprehenderit amet
+        temporibus, error beatae iste, accusantium suscipit tempore similique
+        quibusdam ipsum nobis?
+      </p>
+
+      <img src="pngtree.png" alt="tree" class="tree" /> -->
+    
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cum aliquid aperiam accusantium numquam atque error sed laboriosam voluptatibus iure, fugiat veritatis nam deleniti ipsam quis minima necessitatibus aliquam voluptate.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cum aliquid aperiam accusantium numquam atque error sed laboriosam voluptatibus iure, fugiat veritatis nam deleniti ipsam quis minima necessitatibus aliquam voluptate.</p>
+      
+
+
+      <div class="box">
+        <img src="pngtree.png" alt="tree" class="tree">
+      </div>
+      
+      <div class="box">
+        <img src="pngtree.png" alt="tree" class="tree">
+      </div>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cum aliquid aperiam accusantium numquam atque error sed laboriosam voluptatibus iure, fugiat veritatis nam deleniti ipsam quis minima necessitatibus aliquam voluptate.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cum aliquid aperiam accusantium numquam atque error sed laboriosam voluptatibus iure, fugiat veritatis nam deleniti ipsam quis minima necessitatibus aliquam voluptate.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cum aliquid aperiam accusantium numquam atque error sed laboriosam voluptatibus iure, fugiat veritatis nam deleniti ipsam quis minima necessitatibus aliquam voluptate.</p>
+      <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cum aliquid aperiam accusantium numquam atque error sed laboriosam voluptatibus iure, fugiat veritatis nam deleniti ipsam quis minima necessitatibus aliquam voluptate.</p>
+      <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cum aliquid aperiam accusantium numquam atque error sed laboriosam voluptatibus iure, fugiat veritatis nam deleniti ipsam quis minima necessitatibus aliquam voluptate.</p>
+    </div> -->
+
+    <div class="drowdown">
+        Hello
+        <div class="dropdown_content">Hello world!!!</div>
+    </div>
+  </body>
+</html>
