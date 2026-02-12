@@ -107,19 +107,3 @@
 
     // Typeof Operator
 
-// Control Statements:
-
-    // Conditional Stmts
-        // if
-        // if else
-        // if else if
-        // switch case
-
-    // Looping Stmts
-        // for loop
-        // while loop
-        // do while
-
-    // Jumping stmts
-        // break
-        // continue
