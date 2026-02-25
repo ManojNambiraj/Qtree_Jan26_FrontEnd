@@ -31,9 +31,31 @@
 
 // console.log(ele3);
 
+// Create Element:
 
-let newele = document.createElement("h1")
+// let ulTag = document.createElement("ul")
 
-newele.innerText = "Good evening"
+// ulTag.setAttribute("class", "lists")
 
-document.body.append(newele)
+// let liTag = document.createElement("li")
+// let li1Tag = document.createElement("li")
+
+// liTag.innerText = "Sportz"
+// li1Tag.innerText = "Music"
+
+// ulTag.appendChild(liTag)
+// ulTag.appendChild(li1Tag)
+
+// document.body.append(ulTag)
+
+// let aTag = document.createElement("a")
+// aTag.setAttribute("href", "second.html")
+
+// aTag.innerText = "Next"
+
+// document.body.append(aTag)
+
+// let ele = document.querySelector(".para")
+// let ele = document.querySelectorAll(".para")
+
+// console.log(ele);
