@@ -35,17 +35,6 @@ console.log(a);
 
 // Object:
 
-let student1 = {name: "Raj", age: 23, dept: "IT", Mobile: 232323424234}
+let student1 = { name: "Raj", age: 23, dept: "IT", mobile: 232323424234 };
 
 console.log(student1.name);
-
-
-
-
-
-
-
-
-
-
-

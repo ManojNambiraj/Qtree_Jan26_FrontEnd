@@ -15,9 +15,9 @@
 // Objects
 
     // let student = {
-    //     name: "Ravi", 
-    //     age: 23, 
-    //     dept: "EEE", 
+    //     name: "Ravi",
+    //     age: 23,
+    //     dept: "EEE",
     //     mobile: 9876543222,
     //     isMarried: false,
     //     address: {
@@ -46,9 +46,9 @@
     // Object destructure
 
         // let student = {
-        //     name: "Ravi", 
-        //     age: 23, 
-        //     dept: "EEE", 
+        //     name: "Ravi",
+        //     age: 23,
+        //     dept: "EEE",
         //     mobile: 9876543222
         // }
 
@@ -57,9 +57,3 @@
         // console.log(name);
         // console.log(age)
         // console.log(mobile);
-    
-    
-    
-
-
-
