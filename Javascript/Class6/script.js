@@ -3,7 +3,7 @@
     // Basic
 
         // function demo(){
-        //     console.log("Hi everyone");   
+        //     console.log("Hi everyone");
         // }
 
         // demo()
@@ -63,5 +63,4 @@
 
     // (() => {
     //     console.log("hello");
-    // })() 
-    
+    // })()

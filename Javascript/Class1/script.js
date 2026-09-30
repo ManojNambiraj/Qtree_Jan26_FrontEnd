@@ -24,7 +24,7 @@
     // alert("hi")
 
     // console.log("Hi");
-    
+
 // Version: ES6 (Ecma script)
 
     // Old: ES5
@@ -45,7 +45,7 @@
         // var a = 25
 
         // console.log(a);
-    
+
 
     // let  -> ES6
 
@@ -56,10 +56,9 @@
         // a = 3500  // redefined
 
         // console.log(a)
-        
+
     // const  -> ES6
 
         const a = 30  // declare  // memory address
 
-        console.log(a)
-        
+        console.log(a);
